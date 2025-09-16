@@ -31,7 +31,9 @@
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
+            this.pnlClientes = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
+            this.pnlClientes.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvClientes
@@ -59,6 +61,7 @@
             this.btnCadastrar.TabIndex = 1;
             this.btnCadastrar.Text = "Novo";
             this.btnCadastrar.UseVisualStyleBackColor = false;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnEditar
             // 
@@ -75,19 +78,28 @@
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
             // 
+            // pnlClientes
+            // 
+            this.pnlClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.pnlClientes.Controls.Add(this.dgvClientes);
+            this.pnlClientes.Controls.Add(this.btnCadastrar);
+            this.pnlClientes.Controls.Add(this.btnEditar);
+            this.pnlClientes.Dock = System.Windows.Forms.DockStyle.Fill; // <-- ESSA LINHA É A CHAVE
+            this.pnlClientes.Location = new System.Drawing.Point(0, 0);
+            this.pnlClientes.Name = "pnlClientes";
+            this.pnlClientes.Size = new System.Drawing.Size(880, 545); // esse tamanho não importa mais, o Dock.Fill manda
+            this.pnlClientes.TabIndex = 3;
+            // 
             // ucClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(42)))), ((int)(((byte)(48)))));
-            this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.dgvClientes);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Controls.Add(this.pnlClientes);
+            this.Dock = System.Windows.Forms.DockStyle.Fill; // <-- adiciona isso
+            this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "ucClientes";
             this.Size = new System.Drawing.Size(880, 545);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
-            this.ResumeLayout(false);
 
         }
 
@@ -96,5 +108,6 @@
         private System.Windows.Forms.DataGridView dgvClientes;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Panel pnlClientes;
     }
 }

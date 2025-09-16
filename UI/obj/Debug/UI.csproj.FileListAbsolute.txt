@@ -1,0 +1,16 @@
+C:\Users\JOAO\Documents\SisHydroGestao\UI\bin\Debug\UI.exe.config
+C:\Users\JOAO\Documents\SisHydroGestao\UI\bin\Debug\UI.exe
+C:\Users\JOAO\Documents\SisHydroGestao\UI\bin\Debug\UI.pdb
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.frmCadCliente.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.frmCadUsuario.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.frmLogin.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.frmMainPage.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.frmSplashScreen.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.ucClientes.resources
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.exe
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.pdb
+C:\Users\JOAO\Documents\SisHydroGestao\UI\obj\Debug\UI.exe.config

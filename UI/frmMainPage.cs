@@ -61,13 +61,13 @@ namespace UI
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente fechar o programa?",
+            if (MessageBox.Show("Deseja realmente encerrar o programa?",
                     "Confirmação",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question,
                     MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
-                Close();
+                Application.Exit();
             }
         }
 
@@ -88,6 +88,7 @@ namespace UI
         private void AbrirUserControl(UserControl uc)
         {
             pnlMain.Controls.Clear();
+            uc.Margin = new Padding(0);
             uc.Dock = DockStyle.Fill;
             pnlMain.Controls.Add(uc);
             uc.BringToFront();
