@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace model
+﻿namespace model
 {
     public class Cliente
     {
@@ -13,6 +7,7 @@ namespace model
         public string cpf_cnpj;
         public string telefone;
         public string endereco;
+        public string observacoes;
 
         public string Nome
         {
@@ -33,6 +28,12 @@ namespace model
         {
             get { return endereco; }
             set { endereco = value; }
+        }
+
+        public string Observacoes
+        {
+            get { return observacoes; }
+            set { observacoes = value; }
         }
     }
 }
