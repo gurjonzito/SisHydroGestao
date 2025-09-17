@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using UI.Interfaces;
 
 namespace UI
 {
     public partial class frmMainPage : Form
     {
         private ucClientes ucClientes;
+        private ucHome ucHome;
 
         public frmMainPage()
         {
@@ -18,6 +20,7 @@ namespace UI
         private void frmMainPage_Load(object sender, EventArgs e)
         {
             DefinirPaineis();
+            IniciarHome();
         }
 
         private void MenuBotoes()
@@ -73,16 +76,26 @@ namespace UI
 
         private void DefinirPaineis()
         {
+            // Topo
             pnlTop.Dock = DockStyle.Top;
             pnlTop.Height = 30;
 
+            // Rodapé
             pnlBottom.Dock = DockStyle.Bottom;
             pnlBottom.Height = 75;
 
+            // Menu lateral
             pnlMenu.Dock = DockStyle.Left;
             pnlMenu.Width = 200;
 
-            pnlMain.Dock = DockStyle.Fill; // ocupa só o que restar
+            // Main ocupa o que sobrar
+            pnlMain.Dock = DockStyle.Fill;
+
+            // Ordem correta de adição
+            this.Controls.Add(pnlMain);
+            this.Controls.Add(pnlMenu);
+            this.Controls.Add(pnlBottom);
+            this.Controls.Add(pnlTop);
         }
 
         private void AbrirUserControl(UserControl uc)
@@ -92,6 +105,19 @@ namespace UI
             uc.Dock = DockStyle.Fill;
             pnlMain.Controls.Add(uc);
             uc.BringToFront();
+        }
+
+        private void IniciarHome()
+        {
+            if (ucHome == null)
+                ucHome = new ucHome();
+
+            AbrirUserControl(ucHome);
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            AbrirUserControl(ucHome);
         }
     }
 }

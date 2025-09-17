@@ -84,10 +84,10 @@
             this.pnlClientes.Controls.Add(this.dgvClientes);
             this.pnlClientes.Controls.Add(this.btnCadastrar);
             this.pnlClientes.Controls.Add(this.btnEditar);
-            this.pnlClientes.Dock = System.Windows.Forms.DockStyle.Fill; // <-- ESSA LINHA É A CHAVE
+            this.pnlClientes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlClientes.Location = new System.Drawing.Point(0, 0);
             this.pnlClientes.Name = "pnlClientes";
-            this.pnlClientes.Size = new System.Drawing.Size(880, 545); // esse tamanho não importa mais, o Dock.Fill manda
+            this.pnlClientes.Size = new System.Drawing.Size(880, 545);
             this.pnlClientes.TabIndex = 3;
             // 
             // ucClientes
@@ -96,10 +96,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(42)))), ((int)(((byte)(48)))));
             this.Controls.Add(this.pnlClientes);
-            this.Dock = System.Windows.Forms.DockStyle.Fill; // <-- adiciona isso
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "ucClientes";
-            this.Size = new System.Drawing.Size(880, 545);
+            this.Size = new System.Drawing.Size(969, 663);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
+            this.pnlClientes.ResumeLayout(false);
+            this.ResumeLayout(false);
 
         }
 
