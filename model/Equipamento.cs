@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace model
 {
-    public class Peca
+    public class Equipamento
     {
-        public int pec_id { get; set; }
+        public int equ_id { get; set; }
         public string nome;
         public string codigo;
         public int qtde_estoque;

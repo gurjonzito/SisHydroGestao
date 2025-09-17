@@ -10,13 +10,13 @@ namespace model
     {
         public int orc_id { get; set; }
         public int cli_id;
-        public DateTime data_orcamento;
+        public DateTime data;
         public string descricao;
         public decimal valor_estimado;
-        public DateTime DataOrcamento
+        public DateTime Data
         {
-            get { return data_orcamento; }
-            set { data_orcamento = value; }
+            get { return data; }
+            set { data = value; }
         }
         public string Descricao
         {

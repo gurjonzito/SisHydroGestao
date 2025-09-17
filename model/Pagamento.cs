@@ -14,7 +14,12 @@ namespace model
         public DateTime data_pagto;
         public decimal valor_pago;
         public bool parcelado;
-        public string situacao; // Pendente, Pago, Cancelado
+        public Situacao situacao;
+
+        public enum Situacao
+        {
+            Pendente, Parcial, Pago, Cancelado
+        }
 
         public string FormaPagamento
         {
@@ -36,11 +41,6 @@ namespace model
         {
             get { return parcelado; }
             set { parcelado = value; }
-        }
-        public string Situacao
-        {
-            get { return situacao; }
-            set { situacao = value; }
         }
     }
 }

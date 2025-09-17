@@ -14,11 +14,14 @@ namespace model
         public string login;
         public string senha;
         public string senhaHash { get; set; }
+
         public string Nome
         {
             get { return nome; }
             set { nome = value; }
         }
+
+        [EmailAddress]
         public string Email
         {
             get { return email; }

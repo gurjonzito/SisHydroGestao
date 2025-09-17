@@ -10,10 +10,17 @@ namespace model
     {
         public int ser_id { get; set; }
         public int cli_id;
+        public int orc_id;
         public string tipo;
         public DateTime data_execucao;
         public string descricao;
         public decimal valor;
+        public Status status;
+
+        public enum Status
+        {
+            Aberto, Andamento, Concluído, Cancelado
+        }
 
         public string TipoServico
         {

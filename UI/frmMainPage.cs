@@ -25,6 +25,7 @@ namespace UI
 
         private void MenuBotoes()
         {
+            btnHome.FlatAppearance.BorderSize = 0;
             btnCliente.FlatAppearance.BorderSize = 0;
             btnServico.FlatAppearance.BorderSize = 0;
             btnPecas.FlatAppearance.BorderSize = 0;
@@ -33,6 +34,7 @@ namespace UI
             btnRelatorios.FlatAppearance.BorderSize = 0;
             btnSair.FlatAppearance.BorderSize = 0;
 
+            btnHome.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 58, 79);
             btnCliente.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 58, 79);
             btnServico.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 58, 79);
             btnPecas.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 58, 79);

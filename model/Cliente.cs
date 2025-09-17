@@ -6,8 +6,19 @@
         public string nome;
         public string cpf_cnpj;
         public string telefone;
-        public string endereco;
+        public string rua;
+        public int numero;
+        public string bairro;
+        public string cidade;
+        public Estado estado;
         public string observacoes;
+
+        public enum Estado
+        {
+            AC, AL, AP, AM, BA, CE, DF, ES, GO, MA,
+            MT, MS, MG, PA, PB, PR, PE, PI, RJ, RN,
+            RS, RO, RR, SC, SP, SE, TO
+        }
 
         public string Nome
         {
@@ -24,10 +35,28 @@
             get { return telefone; }
             set { telefone = value; }
         }
-        public string Endereco
+        public string Rua
         {
-            get { return endereco; }
-            set { endereco = value; }
+            get { return rua; }
+            set { rua = value; }
+        }
+
+        public int Numero
+        {
+            get { return numero; }
+            set { numero = value; }
+        }
+
+        public string Bairro
+        {
+            get { return bairro; }
+            set { bairro = value; }
+        }
+
+        public string Cidade
+        {
+            get { return cidade; }
+            set { cidade = value; }
         }
 
         public string Observacoes

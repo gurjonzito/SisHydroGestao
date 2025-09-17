@@ -1,0 +1,118 @@
+-- =========================
+-- BANCO PARA EMPRESA DE POÇOS ARTESIANOS
+-- =========================
+
+CREATE DATABASE IF NOT EXISTS hydro_temp;
+USE hydro_temp;
+
+-- =========================
+-- TABELA CLIENTE
+-- =========================
+CREATE TABLE cliente (
+    cli_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    cpf_cnpj VARCHAR(20) UNIQUE,
+    telefone VARCHAR(20),
+    rua VARCHAR(150),
+    numero VARCHAR(20),
+    bairro VARCHAR(100),
+    cidade VARCHAR(100),
+    estado ENUM('AC','AL','AP','AM','BA','CE','DF','ES','GO','MA',
+    'MT','MS','MG','PA','PB','PR','PE','PI','RJ','RN',
+    'RS','RO','RR','SC','SP','SE','TO'),
+    observacoes TEXT
+);
+
+-- =========================
+-- TABELA ORÇAMENTO
+-- =========================
+CREATE TABLE orcamento (
+    orc_id INT AUTO_INCREMENT PRIMARY KEY,
+    cli_id INT NOT NULL,
+    data DATE NOT NULL,
+    descricao TEXT,
+    valor_estimado DECIMAL(10,2),
+    FOREIGN KEY (cli_id) REFERENCES cliente(cli_id)
+);
+
+-- =========================
+-- TABELA SERVIÇO
+-- =========================
+CREATE TABLE servico (
+    ser_id INT AUTO_INCREMENT PRIMARY KEY,
+    cli_id INT NOT NULL,
+    orc_id INT NULL,
+    tipo VARCHAR(100) NOT NULL,
+    data_execucao DATE NOT NULL,
+    descricao TEXT,
+    valor DECIMAL(10,2),
+    status ENUM('Aberto','Em execução','Concluído','Cancelado') DEFAULT 'Aberto',
+    FOREIGN KEY (cli_id) REFERENCES cliente(cli_id),
+    FOREIGN KEY (orc_id) REFERENCES orcamento(orc_id)
+);
+
+-- =========================
+-- TABELA PAGAMENTO
+-- =========================
+CREATE TABLE pagamento (
+    pag_id INT AUTO_INCREMENT PRIMARY KEY,
+    ser_id INT NOT NULL,
+    forma_pagto VARCHAR(50),
+    data_pagto DATE,
+    valor_pago DECIMAL(10,2),
+    parcelado BOOLEAN,
+    situacao ENUM('Pendente','Parcial','Pago','Cancelado') DEFAULT 'Pendente',
+    FOREIGN KEY (ser_id) REFERENCES servico(ser_id)
+);
+
+-- =========================
+-- TABELA PARCELAS (se parcelado = TRUE)
+-- =========================
+CREATE TABLE parcela_pagamento (
+    par_id INT AUTO_INCREMENT PRIMARY KEY,
+    pag_id INT NOT NULL,
+    qtde_parcelas INT NOT NULL,
+    qtde_parcelas_pagas INT NOT NULL,
+    data_vencimento DATE NOT NULL,
+    valor_total DECIMAL(10,2) NOT NULL,
+    valor_abatido DECIMAL(10,2) NOT NULL,
+    situacao ENUM('Pendente','Pago','Atrasado') DEFAULT 'Pendente',
+    FOREIGN KEY (pag_id) REFERENCES pagamento(pag_id)
+);
+
+-- =========================
+-- TABELA EQUIPAMENTO
+-- =========================
+CREATE TABLE equipamento (
+    equ_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    codigo VARCHAR(50) UNIQUE,
+    qtde_estoque INT DEFAULT 0,
+    preco_compra DECIMAL(10,2),
+    fabricante VARCHAR(100),
+    entrada DATE
+);
+
+-- =========================
+-- RELAÇÃO SERVIÇO x EQUIPAMENTO (muitos-para-muitos)
+-- =========================
+CREATE TABLE servico_equipamento (
+    ser_id INT NOT NULL,
+    equ_id INT NOT NULL,
+    quantidade INT,
+    PRIMARY KEY (ser_id, equ_id),
+    FOREIGN KEY (ser_id) REFERENCES servico(ser_id),
+    FOREIGN KEY (equ_id) REFERENCES equipamento(equ_id)
+);
+
+-- =========================
+-- TABELA USUÁRIO
+-- =========================
+CREATE TABLE usuario (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    email VARCHAR(150) UNIQUE,
+    login VARCHAR(50) UNIQUE NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
