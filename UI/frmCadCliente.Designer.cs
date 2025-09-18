@@ -37,21 +37,21 @@
             this.txtCPFCNPJ = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.txtRua = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtObservacoes = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbEstado = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -140,14 +140,14 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Telefone";
             // 
-            // txtEndereco
+            // txtRua
             // 
-            this.txtEndereco.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEndereco.Location = new System.Drawing.Point(11, 145);
-            this.txtEndereco.Margin = new System.Windows.Forms.Padding(2);
-            this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(257, 26);
-            this.txtEndereco.TabIndex = 8;
+            this.txtRua.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRua.Location = new System.Drawing.Point(11, 145);
+            this.txtRua.Margin = new System.Windows.Forms.Padding(2);
+            this.txtRua.Name = "txtRua";
+            this.txtRua.Size = new System.Drawing.Size(257, 26);
+            this.txtRua.TabIndex = 8;
             // 
             // label4
             // 
@@ -212,15 +212,15 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cbEstado);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.txtEndereco);
+            this.groupBox1.Controls.Add(this.txtCidade);
+            this.groupBox1.Controls.Add(this.txtNumero);
+            this.groupBox1.Controls.Add(this.txtRua);
             this.groupBox1.Controls.Add(this.txtCPFCNPJ);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtBairro);
             this.groupBox1.Controls.Add(this.txtObservacoes);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txtNome);
@@ -239,14 +239,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastrar Cliente";
             // 
-            // comboBox1
+            // label9
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 25;
-            this.comboBox1.Location = new System.Drawing.Point(296, 256);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(67, 33);
-            this.comboBox1.TabIndex = 18;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(292, 235);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 19);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Estado";
+            // 
+            // cbEstado
+            // 
+            this.cbEstado.FormattingEnabled = true;
+            this.cbEstado.ItemHeight = 25;
+            this.cbEstado.Location = new System.Drawing.Point(296, 256);
+            this.cbEstado.Name = "cbEstado";
+            this.cbEstado.Size = new System.Drawing.Size(67, 33);
+            this.cbEstado.TabIndex = 18;
             // 
             // label8
             // 
@@ -259,23 +270,23 @@
             this.label8.TabIndex = 17;
             this.label8.Text = "Cidade";
             // 
-            // textBox3
+            // txtCidade
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(11, 256);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(280, 26);
-            this.textBox3.TabIndex = 16;
+            this.txtCidade.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCidade.Location = new System.Drawing.Point(11, 256);
+            this.txtCidade.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(280, 26);
+            this.txtCidade.TabIndex = 16;
             // 
-            // textBox2
+            // txtNumero
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(272, 145);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(91, 26);
-            this.textBox2.TabIndex = 14;
+            this.txtNumero.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero.Location = new System.Drawing.Point(272, 145);
+            this.txtNumero.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(91, 26);
+            this.txtNumero.TabIndex = 14;
             // 
             // label7
             // 
@@ -299,25 +310,14 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Bairro";
             // 
-            // textBox1
+            // txtBairro
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(11, 194);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(352, 26);
-            this.textBox1.TabIndex = 14;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(292, 235);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 19);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Estado";
+            this.txtBairro.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBairro.Location = new System.Drawing.Point(11, 194);
+            this.txtBairro.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(352, 26);
+            this.txtBairro.TabIndex = 14;
             // 
             // frmCadCliente
             // 
@@ -354,7 +354,7 @@
         private System.Windows.Forms.MaskedTextBox txtCPFCNPJ;
         private System.Windows.Forms.MaskedTextBox txtTelefone;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtEndereco;
+        private System.Windows.Forms.TextBox txtRua;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RichTextBox txtObservacoes;
         private System.Windows.Forms.Label label5;
@@ -363,12 +363,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.Label label9;
     }
 }

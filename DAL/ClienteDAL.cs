@@ -1,6 +1,7 @@
-﻿using model;
+﻿using Dapper;
+using model;
 using MySql.Data.MySqlClient;
-using System;
+using System.Collections.Generic;
 using System.Data;
 
 namespace DAL
@@ -33,12 +34,30 @@ namespace DAL
             mConn.FecharConexao();
         }
 
+        public bool ExisteCpfCnpj(string cpfCnpj)
+        {
+            using (IDbConnection dbConnection = mConn.AbrirConexao())
+            {
+                string query = "SELECT COUNT(1) FROM cliente WHERE cpf_cnpj = @CpfCnpj";
+                return dbConnection.ExecuteScalar<int>(query, new { cpfCnpj }) > 0;
+            }
+        }
+
         public void EditarCliente(Cliente cliente)
         {
             using (IDbConnection dbConnection = mConn.AbrirConexao())
             {
-                string query = "UPDATE cliente SET nome = @Nome, CpfCnpj = @CpfCnpj, Telefone = @Telefone, Endereco = @Endereco WHERE cli_id = @Id";
+                string query = "UPDATE cliente SET nome = @Nome, cpf_cnpj = @CpfCnpj, telefone = @Telefone, rua = @Rua, numero = @Numero, bairro = @Bairro, cidade = @Cidade, estado = @Estado, observacoes = @Observacoes WHERE cli_id = @cli_id";
                 dbConnection.Execute(query, cliente);
+            }
+        }
+
+        public List<Cliente> GetClientes()
+        {
+            using (IDbConnection dbConnection = mConn.AbrirConexao())
+            {
+                string query = "SELECT cli_id, nome, cpf_cnpj, telefone, rua, numero, bairro, cidade, estado, observacoes FROM cliente";
+                return dbConnection.Query<Cliente>(query).AsList();
             }
         }
     }

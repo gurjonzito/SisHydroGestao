@@ -1,4 +1,5 @@
-﻿using model;
+﻿using BLL;
+using model;
 using System;
 using System.Windows.Forms;
 
@@ -6,20 +7,41 @@ namespace UI
 {
     public partial class frmCadCliente : Form
     {
+        private ClienteBLL clienteBLL = new ClienteBLL();
+
         public frmCadCliente()
         {
             InitializeComponent();
         }
 
-        private Cliente CriarCliente()
+        private void CriarCliente()
         {
-            return new Cliente
+            Cliente cliente = new Cliente
             {
-                Nome = txtNome.Text,
-                Endereco = txtEndereco.Text,
-                CpfCnpj = txtCPFCNPJ.Text.Replace(".", "").Replace("-", ""),
-                Telefone = txtTelefone.Text
+                Nome = txtNome.Text.Trim(),
+                CpfCnpj = txtCPFCNPJ.Text.Trim(),
+                Telefone = txtTelefone.Text.Trim(),
+                Rua = txtRua.Text.Trim(),
+                Numero = int.TryParse(txtNumero.Text, out int n) ? n : 0,
+                Bairro = txtBairro.Text.Trim(),
+                Cidade = txtCidade.Text.Trim(),
+                estado = (Cliente.Estado)cbEstado.SelectedItem,
+                Observacoes = txtObservacoes.Text.Trim()
             };
+
+            string retorno = clienteBLL.CadastrarCliente(cliente);
+
+            if (retorno == "Sucesso")
+            {
+                MessageBox.Show("Cliente cadastrado com sucesso!");
+                LimparCampos();
+            }
+            else
+            {
+                MessageBox.Show(retorno, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            LimparCampos();
         }
 
         private void ValidarEntradaNumerica(KeyPressEventArgs e)
@@ -34,31 +56,19 @@ namespace UI
         private void LimparCampos()
         {
             txtNome.Clear();
-            txtEndereco.Clear();
             txtCPFCNPJ.Clear();
             txtTelefone.Clear();
+            txtRua.Clear();
+            txtNumero.Clear();
+            txtBairro.Clear();
+            txtCidade.Clear();
+            cbEstado.SelectedItem = -1;
             txtObservacoes.Clear();
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    var cliente = CriarCliente();
-
-            //    string mensagem = _pacienteController.InserirPacienteComEndereco(cliente);
-            //    MessageBox.Show(mensagem);
-
-            //    if (mensagem.Contains("Paciente cadastrado com sucesso!"))
-            //    {
-            //        LimparCampos();
-            //        txtNome.Focus();
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show($"Ocorreu um erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
+            CriarCliente();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
