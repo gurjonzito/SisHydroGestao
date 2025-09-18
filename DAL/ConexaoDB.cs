@@ -6,7 +6,7 @@ namespace DAL
     {
         public MySqlConnection mConn;
 
-        public string conec = "server=hydro_temp.mysql.dbaas.com.br;database=hydro_temp;user=hydro_temp;password=noiRBerserk@91;";
+        public string conec = "server=hydro_temp.mysql.dbaas.com.br;database=hydro_temp;user=hydro_temp;password=;";
 
         public MySqlConnection AbrirConexao()
         {
