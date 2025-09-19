@@ -14,7 +14,6 @@ namespace DAL
 
         public void InserirCliente(Cliente cliente)
         {
-            // Inserir o novo cliente na tabela
             sql = "INSERT INTO cliente (nome, cpf_cnpj, telefone, rua, numero, bairro, cidade, estado, observacoes) VALUES (@Nome, @CpfCnpj, @Telefone, @Rua, @Numero, @Bairro, @Cidade, @Estado, @Observacoes)";
             cmd = new MySqlCommand(sql, mConn.AbrirConexao());
 
@@ -30,7 +29,6 @@ namespace DAL
 
             cmd.ExecuteNonQuery();
 
-            // Fechar a conexão após a execução
             mConn.FecharConexao();
         }
 

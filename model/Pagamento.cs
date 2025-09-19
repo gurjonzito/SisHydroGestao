@@ -13,7 +13,7 @@ namespace model
         public string forma_pagto;
         public DateTime data_pagto;
         public decimal valor_pago;
-        public bool parcelado;
+        public bool? parcelado;
         public Situacao situacao;
 
         public enum Situacao

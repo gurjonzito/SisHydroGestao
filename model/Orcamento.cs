@@ -9,7 +9,7 @@ namespace model
     public class Orcamento
     {
         public int orc_id { get; set; }
-        public int cli_id;
+        public int cli_id { get; set; }
         public DateTime data;
         public string descricao;
         public decimal valor_estimado;

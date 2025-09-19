@@ -3,11 +3,87 @@
   "WorkspaceRootPath": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|c:\\users\\joao\\documents\\sishydrogestao\\ui\\frmcadusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\bll\\equipamentobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\equipamentobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\bll\\parcelabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\parcelabll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\bll\\servicobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\servicobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\dal\\equipamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\equipamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\bll\\orcamentobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\orcamentobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\dal\\parceladal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\parceladal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\parcelapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\parcelapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\dal\\pagamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\pagamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\bll\\pagamentobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\pagamentobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\dal\\servicodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\servicodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\dal\\orcamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\orcamentodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\orcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\orcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|c:\\users\\joao\\documents\\sishydrogestao\\model\\emailaddressattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\emailaddressattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\dal\\conexaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\conexaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\ui\\frmcadusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|solutionrelative:ui\\frmcadusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|c:\\users\\joao\\documents\\sishydrogestao\\ui\\frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\ui\\frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|solutionrelative:ui\\frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,24 +91,8 @@
       "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|c:\\users\\joao\\documents\\sishydrogestao\\bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BD08930-0407-47AB-B390-FE11B386C64E}|BLL\\BLL.csproj|solutionrelative:bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\ui\\frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|solutionrelative:ui\\frmcadcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\dal\\conexaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1676B9B-A983-479C-B339-830BBEBDB050}|DAL\\DAL.csproj|solutionrelative:dal\\conexaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\ui\\frmcadcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,24 +111,8 @@
       "RelativeMoniker": "D:0:0:{3123F5CE-9718-4F02-9F74-AB6E413BDE62}|UI\\UI.csproj|solutionrelative:ui\\frmmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\parcelapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\parcelapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\orcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\orcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\servicoequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\servicoequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|solutionrelative:model\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17C56BC5-CA46-4A40-AE22-C2A923B99A97}|model\\model.csproj|C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,198 +171,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCadUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadUsuario.cs",
-              "RelativeDocumentMoniker": "UI\\frmCadUsuario.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadUsuario.cs [Design]",
-              "RelativeToolTip": "UI\\frmCadUsuario.cs [Design]",
+              "Title": "EquipamentoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\EquipamentoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\EquipamentoBLL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\EquipamentoBLL.cs",
+              "RelativeToolTip": "BLL\\EquipamentoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T19:53:34.779Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteBLL.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ClienteBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\ClienteBLL.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ClienteBLL.cs",
-              "RelativeToolTip": "BLL\\ClienteBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T18:47:19.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Cliente.cs",
-              "RelativeDocumentMoniker": "model\\Cliente.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Cliente.cs",
-              "RelativeToolTip": "model\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T14:54:42.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConexaoDB.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ConexaoDB.cs",
-              "RelativeDocumentMoniker": "DAL\\ConexaoDB.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ConexaoDB.cs",
-              "RelativeToolTip": "DAL\\ConexaoDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:12:45.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteDAL.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ClienteDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\ClienteDAL.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ClienteDAL.cs",
-              "RelativeToolTip": "DAL\\ClienteDAL.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAiwDYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:25:11.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmCadCliente.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs",
-              "RelativeDocumentMoniker": "UI\\frmCadCliente.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs",
-              "RelativeToolTip": "UI\\frmCadCliente.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwEEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T14:51:33.281Z",
+              "WhenOpened": "2025-09-19T14:18:46.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmCadCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs",
-              "RelativeDocumentMoniker": "UI\\frmCadCliente.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs [Design]",
-              "RelativeToolTip": "UI\\frmCadCliente.cs [Design]",
+              "Title": "EquipamentoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\EquipamentoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\EquipamentoDAL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\EquipamentoDAL.cs",
+              "RelativeToolTip": "DAL\\EquipamentoDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T14:52:56.2Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Usuario.cs",
-              "RelativeDocumentMoniker": "model\\Usuario.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Usuario.cs",
-              "RelativeToolTip": "model\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:34:39.096Z",
+              "WhenOpened": "2025-09-19T14:10:23.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\App.config",
-              "RelativeDocumentMoniker": "UI\\App.config",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\App.config",
-              "RelativeToolTip": "UI\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-17T19:49:19.705Z",
+              "DocumentIndex": 2,
+              "Title": "ParcelaBLL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ParcelaBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ParcelaBLL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ParcelaBLL.cs",
+              "RelativeToolTip": "BLL\\ParcelaBLL.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T14:03:13.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmCadCliente.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\frmCadCliente.Designer.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.Designer.cs",
-              "RelativeToolTip": "UI\\frmCadCliente.Designer.cs",
-              "ViewState": "AgIAAFYBAAAAAAAAAAAowGwBAAAyAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ServicoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ServicoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ServicoBLL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ServicoBLL.cs",
+              "RelativeToolTip": "BLL\\ServicoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:47:16.047Z",
+              "WhenOpened": "2025-09-19T13:26:31.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmMainPage.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs",
-              "RelativeDocumentMoniker": "UI\\frmMainPage.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs",
-              "RelativeToolTip": "UI\\frmMainPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:17:26.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmMainPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs",
-              "RelativeDocumentMoniker": "UI\\frmMainPage.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs [Design]",
-              "RelativeToolTip": "UI\\frmMainPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:10:11.537Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ParcelaPagamento.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ParcelaPagamento.cs",
-              "RelativeDocumentMoniker": "model\\ParcelaPagamento.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ParcelaPagamento.cs",
-              "RelativeToolTip": "model\\ParcelaPagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:27:09.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Orcamento.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Orcamento.cs",
-              "RelativeDocumentMoniker": "model\\Orcamento.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Orcamento.cs",
-              "RelativeToolTip": "model\\Orcamento.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:32:58.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ServicoEquipamento.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ServicoEquipamento.cs",
-              "RelativeDocumentMoniker": "model\\ServicoEquipamento.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ServicoEquipamento.cs",
-              "RelativeToolTip": "model\\ServicoEquipamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:24:02.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "Equipamento.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Equipamento.cs",
               "RelativeDocumentMoniker": "model\\Equipamento.cs",
@@ -331,7 +235,294 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ClienteDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ClienteDAL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ClienteDAL.cs",
+              "RelativeToolTip": "DAL\\ClienteDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:25:11.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrcamentoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\OrcamentoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\OrcamentoBLL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\OrcamentoBLL.cs",
+              "RelativeToolTip": "BLL\\OrcamentoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:58:17.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParcelaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ParcelaDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ParcelaDAL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ParcelaDAL.cs",
+              "RelativeToolTip": "DAL\\ParcelaDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:52:04.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteBLL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ClienteBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ClienteBLL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\ClienteBLL.cs",
+              "RelativeToolTip": "BLL\\ClienteBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:47:19.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagamentoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\PagamentoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\PagamentoDAL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\PagamentoDAL.cs",
+              "RelativeToolTip": "DAL\\PagamentoDAL.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:31:31.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagamentoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\PagamentoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\PagamentoBLL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\BLL\\PagamentoBLL.cs",
+              "RelativeToolTip": "BLL\\PagamentoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:40:55.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pagamento.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Pagamento.cs",
+              "RelativeDocumentMoniker": "model\\Pagamento.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Pagamento.cs",
+              "RelativeToolTip": "model\\Pagamento.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:33:18.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParcelaPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ParcelaPagamento.cs",
+              "RelativeDocumentMoniker": "model\\ParcelaPagamento.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ParcelaPagamento.cs",
+              "RelativeToolTip": "model\\ParcelaPagamento.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:27:09.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServicoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ServicoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ServicoDAL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ServicoDAL.cs",
+              "RelativeToolTip": "DAL\\ServicoDAL.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:15:12.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrcamentoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\OrcamentoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\OrcamentoDAL.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\OrcamentoDAL.cs",
+              "RelativeToolTip": "DAL\\OrcamentoDAL.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:48:04.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "EmailAddressAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\EmailAddressAttribute.cs",
+              "RelativeDocumentMoniker": "model\\EmailAddressAttribute.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\EmailAddressAttribute.cs",
+              "RelativeToolTip": "model\\EmailAddressAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:47:25.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ConexaoDB.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ConexaoDB.cs",
+              "RelativeDocumentMoniker": "DAL\\ConexaoDB.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\DAL\\ConexaoDB.cs",
+              "RelativeToolTip": "DAL\\ConexaoDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:12:45.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Usuario.cs",
+              "RelativeDocumentMoniker": "model\\Usuario.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Usuario.cs",
+              "RelativeToolTip": "model\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:34:39.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Orcamento.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Orcamento.cs",
+              "RelativeDocumentMoniker": "model\\Orcamento.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Orcamento.cs",
+              "RelativeToolTip": "model\\Orcamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:32:58.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmCadCliente.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs",
+              "RelativeDocumentMoniker": "UI\\frmCadCliente.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs",
+              "RelativeToolTip": "UI\\frmCadCliente.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T14:51:33.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Cliente.cs",
+              "RelativeDocumentMoniker": "model\\Cliente.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Cliente.cs",
+              "RelativeToolTip": "model\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T14:54:42.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmCadUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\frmCadUsuario.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadUsuario.cs [Design]",
+              "RelativeToolTip": "UI\\frmCadUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:53:34.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmCadCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs",
+              "RelativeDocumentMoniker": "UI\\frmCadCliente.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.cs [Design]",
+              "RelativeToolTip": "UI\\frmCadCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T14:52:56.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\App.config",
+              "RelativeDocumentMoniker": "UI\\App.config",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\App.config",
+              "RelativeToolTip": "UI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-17T19:49:19.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmCadCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\frmCadCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmCadCliente.Designer.cs",
+              "RelativeToolTip": "UI\\frmCadCliente.Designer.cs",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAowGwBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:47:16.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmMainPage.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs",
+              "RelativeDocumentMoniker": "UI\\frmMainPage.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs",
+              "RelativeToolTip": "UI\\frmMainPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T19:17:26.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmMainPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs",
+              "RelativeDocumentMoniker": "UI\\frmMainPage.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.cs [Design]",
+              "RelativeToolTip": "UI\\frmMainPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:10:11.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ServicoEquipamento.cs",
+              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ServicoEquipamento.cs",
+              "RelativeDocumentMoniker": "model\\ServicoEquipamento.cs",
+              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\ServicoEquipamento.cs",
+              "RelativeToolTip": "model\\ServicoEquipamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:24:02.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Servico.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Servico.cs",
               "RelativeDocumentMoniker": "model\\Servico.cs",
@@ -339,25 +530,11 @@
               "RelativeToolTip": "model\\Servico.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:16:25.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T19:16:25.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Pagamento.cs",
-              "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Pagamento.cs",
-              "RelativeDocumentMoniker": "model\\Pagamento.cs",
-              "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\model\\Pagamento.cs",
-              "RelativeToolTip": "model\\Pagamento.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T17:33:18.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "frmSplashScreen.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmSplashScreen.cs",
               "RelativeDocumentMoniker": "UI\\frmSplashScreen.cs",
@@ -365,12 +542,11 @@
               "RelativeToolTip": "UI\\frmSplashScreen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:21:58.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T19:21:58.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmLogin.cs",
               "RelativeDocumentMoniker": "UI\\frmLogin.cs",
@@ -378,12 +554,11 @@
               "RelativeToolTip": "UI\\frmLogin.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:21:35.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T19:21:35.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "frmMainPage.Designer.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.Designer.cs",
               "RelativeDocumentMoniker": "UI\\frmMainPage.Designer.cs",
@@ -391,36 +566,33 @@
               "RelativeToolTip": "UI\\frmMainPage.Designer.cs",
               "ViewState": "AgIAAOIAAAAAAAAAAAAowOUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:27:59.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T19:27:59.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "frmSplashScreen.cs [Design]",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmSplashScreen.cs",
               "RelativeDocumentMoniker": "UI\\frmSplashScreen.cs",
               "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmSplashScreen.cs [Design]",
               "RelativeToolTip": "UI\\frmSplashScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:21:57.893Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-16T19:21:57.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "ucHome.cs [Design]",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\Interfaces\\ucHome.cs",
               "RelativeDocumentMoniker": "UI\\Interfaces\\ucHome.cs",
               "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\Interfaces\\ucHome.cs [Design]",
               "RelativeToolTip": "UI\\Interfaces\\ucHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:37:15.132Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-17T12:37:15.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "ucClientes.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\Interfaces\\ucClientes.cs",
               "RelativeDocumentMoniker": "UI\\Interfaces\\ucClientes.cs",
@@ -428,48 +600,44 @@
               "RelativeToolTip": "UI\\Interfaces\\ucClientes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:20:29.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T19:20:29.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmLogin.cs",
               "RelativeDocumentMoniker": "UI\\frmLogin.cs",
               "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmLogin.cs [Design]",
               "RelativeToolTip": "UI\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:21:34.088Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-16T19:21:34.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "ucClientes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\Interfaces\\ucClientes.cs",
               "RelativeDocumentMoniker": "UI\\Interfaces\\ucClientes.cs",
               "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\Interfaces\\ucClientes.cs [Design]",
               "RelativeToolTip": "UI\\Interfaces\\ucClientes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:20:24.572Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-16T19:20:24.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "frmMainPage.resx",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.resx",
               "RelativeDocumentMoniker": "UI\\frmMainPage.resx",
               "ToolTip": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\frmMainPage.resx",
               "RelativeToolTip": "UI\\frmMainPage.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-17T12:10:43.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T12:10:43.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "ucClientes.Designer.cs",
               "DocumentMoniker": "C:\\Users\\JOAO\\Documents\\SisHydroGestao\\UI\\Interfaces\\ucClientes.Designer.cs",
               "RelativeDocumentMoniker": "UI\\Interfaces\\ucClientes.Designer.cs",
@@ -477,8 +645,7 @@
               "RelativeToolTip": "UI\\Interfaces\\ucClientes.Designer.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAUwFoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:34:19.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T19:34:19.841Z"
             }
           ]
         }
